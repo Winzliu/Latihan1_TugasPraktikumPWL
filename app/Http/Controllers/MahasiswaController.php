@@ -18,7 +18,7 @@ class MahasiswaController extends Controller
 
     public function create()
     {
-        //
+        return "create";
     }
 
     public function store(Request $request)
@@ -33,7 +33,7 @@ class MahasiswaController extends Controller
 
     public function edit(string $id)
     {
-        //
+        return "edit";
     }
 
     public function update(Request $request, string $id)

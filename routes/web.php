@@ -10,7 +10,9 @@ Route::get('/', function () {
 
 // Route::get('/daftar_mahasiswa','App\Http\Controllers\MahasiswaController@index');
 
-Route::get('/daftar_mahasiswa', [MahasiswaController::class, 'index']);
+// Route::get('/daftar_mahasiswa', [MahasiswaController::class, 'index']);
+
+Route::resource('/daftar_mahasiswa', MahasiswaController::class);
 
 // Route::post('detail_mahasiswa',[MahasiswaController::class, 'detail_mhs']);
 
